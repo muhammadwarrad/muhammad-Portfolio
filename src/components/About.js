@@ -35,7 +35,7 @@ const About = () => {
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="Muhammadwarrad2002@gmail.com">
+                      <a href="mailto://Muhammadwarrad2002@gmail.com">
                       Muhammadwarrad2002@gmail.com
                       </a>
                     </th>
