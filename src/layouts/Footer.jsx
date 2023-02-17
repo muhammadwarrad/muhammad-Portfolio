@@ -1,3 +1,4 @@
+import React from "react";
 const Footer = () => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });

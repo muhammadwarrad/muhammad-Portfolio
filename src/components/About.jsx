@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 const About = () => {
   const [toggleList, setToggleList] = useState("tab1");

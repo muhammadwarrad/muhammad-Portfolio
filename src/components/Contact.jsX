@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 const Contact = () => {
   const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
   const [active, setActive] = useState(null);

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSliderProps } from "../sliderProps";
 import Modalbox from "./Modalbox";
@@ -138,20 +138,20 @@ const Portfolio = () => {
                 <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
               </div>
               <div className="title_holder">
-                <p>React, CRUD, API</p>
+                <p>python, Django, SQL and React</p>
                 <h3>
-                  <a href="#">Mern React</a>
+                  <a href="#">Gourmet Gather</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">React Application</p>
-                <h3 className="fn__title">Mern React</h3>
+                <p className="fn__cat"></p>
+                <h3 className="fn__title">Python, Django, SQL and React</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
                   <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
                 </div>
                 <p className="fn__desc">
-                This project was built with React and is a front end to one of my classmates deployed API and has partial CRUD functionality that gives a user the ability to create, read, and delete.
+                Social media application for food lovers has full CRUD functionality and also user authentication build with python, Django, SQL and React
                 </p>
               
       

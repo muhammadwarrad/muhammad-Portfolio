@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import PanelContent from "../components/PanelContent";
 import { aTagClick, customCursor, dataImage, sticky } from "../utilits";
 import Cursor from "./Cursor";

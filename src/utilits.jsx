@@ -1,3 +1,4 @@
+import React from "react";
 export const aTagClick = () => {
   const aTag = document.querySelectorAll("[href='#']");
   for (let i = 0; i < aTag.length; i++) {

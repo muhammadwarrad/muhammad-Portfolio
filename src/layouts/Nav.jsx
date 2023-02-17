@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import React,{ Fragment, useEffect, useState } from "react";
 
 const Nav = ({ close, trigger }) => {
   const [toggle_, setToggle_] = useState("");

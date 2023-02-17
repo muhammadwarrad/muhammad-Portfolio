@@ -1,3 +1,4 @@
+import React from "react";
 const Triggger = ({ open }) => {
   return (
     <a href="#" className="menu_trigger">

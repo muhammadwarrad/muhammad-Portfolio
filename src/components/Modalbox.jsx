@@ -1,51 +1,58 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { dataImage } from "../utilits";
 
 const Modalbox = ({ close, value }) => {
   const data = [
     {
-      name: "Connect Four",
-      tag: "Javascript, HMTL",
+      name: "GA Express",
+      tag: "React, Css, Javascript, MongoDB, Express, Mongoose",
       desc: [
-        { p: "A Connect Four game with built-in CSS animation that allows a user to reset after a game has been won. Built with Javascript, HTML, CSS, Flexbox" }
-    
+        {p:<a href="https://github.com/annadruzhinina/FrontEnd-Shop">Github Link</a> },
+        {p:<a href="https://gaexpress.netlify.app/">Deployed Site</a> },
+        { p: "An e-commerce site which promotes the sales of the best products available on the market. This project is tied to a back-end that me and my group made." },
       ]
 
     },
     {
-      name: "JSON API Project",
-      tag: "express, mongoose",
+      name: "Cat Gif API",
+      tag: "Mongoose, Express, API, CRUD",
       desc: [
-        { p: "   A JSON API built from the ground up using mongoose and express. This JSON API has complete CRUD functionality with RESTful routes. Deployed to Railway." },
-      
+        {p:<a href="https://github.com/muhammadwarrad/Cat-Gif-API">Github Link</a> },
+        {p:<a href="https://coruscating-rugelach-9c2a94.netlify.app/">Deployed Site</a> },
+        { p: "This is a slider Ui i pattern in React. The user sees a random cat gif on the screen with Next and Previous' buttons. When the user clicks on the Previous button the slider shift to show the previous Gif in the list and the Next button shows a new gif." },
+        
       ]
 
     },
     {
-      name: "React Application",
-      tag: "react, axios", 
+      name: "Matching Game JavaScript",
+      tag: "JavaScript, CSS, HTML", 
       desc: [
-        { p: "Built a Tab and Modal UI pattern application in React and integrated two separate APIS. Built with React, Axios, CSS, JavaScript, Node-fetch."}
+        {p:<a href="https://github.com/muhammadwarrad/Project-01">Github Link</a> },
+        {p:<a href="https://muhammadwarrad.github.io/Project-01/">Deployed Site</a> },
+        { p: "My very first project I made a matching game. The goal of the matching game is for the player to match all the pictures together"}
       ]
 
     },
     {
       name: "Mern React",
-      tag: "crud, react",
+      tag: "React, CRUD, API",
       desc: [
-        { p: "This project was built with React and is a front end to one of my classmates deployed API and has partial CRUD functionality that gives a user the ability to create, read, and delete." },
+        {p:<a href="https://github.com/SEI-Grim-Repos/Group-Alpha">Github Link</a> },
+        {p:<a href="https://aesthetic-malasada-e5d24c.netlify.app/">Deployed Site</a> },
+        { p: "Social media application for food lovers has full CRUD functionality and also user authentication build with python, Django, SQL and React" },
      
       ]
 
     },
-    {
-      name: "MERN Stack Group Project",
-      tag: "react, full crud",
-      desc: [
-        { p: "Group project workout application using full stack mongo/express/react/node application." }
-      ]
+    // {
+    //   name: "MERN Stack Group Project",
+    //   tag: "react, full crud",
+    //   desc: [
+    //     { p: "Group project workout application using full stack mongo/express/react/node application." }
+    //   ]
 
-    }
+    // }
   ];
 
   const [index, setIndex] = useState(value);
@@ -105,7 +112,7 @@ const Modalbox = ({ close, value }) => {
               className="prev"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 1 ? 5 : index - 1);
+                setIndex(index == 1 ? 4 : index - 1);
               }}
             >
               <span className="text">Prev</span>
@@ -118,7 +125,7 @@ const Modalbox = ({ close, value }) => {
               className="next"
               onClick={(e) => {
                 e.preventDefault();
-                setIndex(index == 5 ? 1 : index + 1);
+                setIndex(index == 4 ? 1 : index + 1);
               }}
             >
               <span className="text">Next</span>
