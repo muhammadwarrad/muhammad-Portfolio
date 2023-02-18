@@ -34,8 +34,8 @@ const Modalbox = ({ close, value }) => {
 
     },
     {
-      name: "Mern React",
-      tag: "React, CRUD, API",
+      name: "Gourmet Gather",
+      tag: "Python, Django, SQL and React",
       desc: [
         {p:<a href="https://github.com/SEI-Grim-Repos/Group-Alpha">Github Link</a> },
         {p:<a href="https://aesthetic-malasada-e5d24c.netlify.app/">Deployed Site</a> },
