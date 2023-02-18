@@ -13,7 +13,7 @@ export const portfolioSliderProps = {
   spaceBetween: 30,
   speed: 1000,
   autoplay: {
-    delay: 2,
+    delay: 2500,
     disableOnInteraction: false,
   },
   navigation: {
