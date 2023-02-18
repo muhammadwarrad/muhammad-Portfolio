@@ -8,16 +8,16 @@ const Index = () => {
   return (
     <Layout>
       <Home />
-      {/* /Home Section */}
-      {/* About Section */}
+      /Home Section 
+      About Section 
       <About />
-      {/* /About Section */}
-      {/* Portfolio Section */}
+      /About Section 
+       Portfolio Section 
       <Portfolio />
-      {/* /Portfolio Section */}
-      {/* Services Section */}
+       /Portfolio Section 
+      Services Section
       <Contact />
-      {/* /Contact Section */}
+      /Contact Section
     </Layout>
   );
 };
