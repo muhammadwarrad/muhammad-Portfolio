@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 const Contact = () => {
   const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
   const [active, setActive] = useState(null);
@@ -130,7 +130,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="item">
-                 
+
                   <input
                     className="a"
                     type="submit"
@@ -141,12 +141,11 @@ const Contact = () => {
               </div>
             </div>
           </form>
-         
+
           <div className="resumo_fn_contact_info">
             <p>
-              <a className="fn__link" href="mailto://Muhammadwarrad2002@gmail.com">
+              <a className="fn__link" href="Muhammadwarrad2002@gmail.com">
                 Muhammadwarrad2002@gmail.com
-               
               </a>
             </p>
           </div>
