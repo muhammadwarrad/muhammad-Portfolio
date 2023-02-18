@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { dataImage } from "../utilits";
-
 const Modalbox = ({ close, value }) => {
   const data = [
     {

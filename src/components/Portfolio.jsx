@@ -63,7 +63,110 @@ const Portfolio = () => {
                 </p>
               </div>
             </SwiperSlide>
+
+
+
+
+
             <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(2);
+              }}
+              data-index={2}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+              </div>
+              <div className="title_holder">
+                <p>Mongoose, Express, API, CRUD</p>
+                <h3>
+                  <a href="#">Cat Gif </a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">Mongoose, Express, API, CRUD</p>
+                <h3 className="fn__title">Cat Gif </h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+                </div>
+                <p className="fn__desc">
+                This is a slider Ui i pattern in React. The user sees a random cat gif on the screen with Next and Previous' buttons. When the user clicks on the Previous button the slider shift to show the previous Gif in the list and the Next button shows a new gif.                </p>
+              </div>
+            </SwiperSlide>
+
+
+
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(3);
+              }}
+              data-index={3}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+              </div>
+              <div className="title_holder">
+                <p>Mongoose, Express, API, CRUD</p>
+                <h3>
+                  <a href="#">Matching Game</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">Javascript, HTML, CSS </p>
+                <h3 className="fn__title"> Matching Game</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                </div>
+                <p className="fn__desc">
+                For my first project I made a matching game. The goal of the matching game is for the player to match all the pictures together </p>
+              </div>
+            </SwiperSlide>
+
+
+
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(4);
+              }}
+              data-index={4}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+              </div>
+              <div className="title_holder">
+                <p>Python, Django, SQL and React</p>
+                <h3>
+                  <a href="#">Gourmet Gather</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">Python, Django, SQL and React</p>
+                <h3 className="fn__title">Gourmet Gather</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                </div>
+                <p className="fn__desc">
+                Social media application for food lovers has full CRUD functionality and also user authentication build with python, Django, SQL and React
+                </p>
+              </div>
+            </SwiperSlide>
+
+
+
+
+            {/* <SwiperSlide
               className="item modal_item"
               onClick={() => {
                 setModal(true);
@@ -93,8 +196,8 @@ const Portfolio = () => {
                 </p>
         
               </div>
-            </SwiperSlide>
-            <SwiperSlide
+            </SwiperSlide> */}
+            {/* <SwiperSlide
               className="item modal_item"
               onClick={() => {
                 setModal(true);
@@ -113,7 +216,7 @@ const Portfolio = () => {
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">JavaScript</p>
+                <p className="fn__cat">JavaScript,HTML</p>
                 <h3 className="fn__title">Matching Game</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
@@ -124,8 +227,8 @@ const Portfolio = () => {
                 </p>
            
               </div>
-            </SwiperSlide>
-            <SwiperSlide
+            </SwiperSlide> */}
+            {/* <SwiperSlide
               className="item modal_item"
               onClick={() => {
                 setModal(true);
@@ -156,7 +259,7 @@ const Portfolio = () => {
               
       
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
         
           </Swiper>
         </div>
