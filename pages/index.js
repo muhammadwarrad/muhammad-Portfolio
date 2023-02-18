@@ -1,5 +1,5 @@
 import About from "../src/components/About";
-import Contact from "../src/components/Contact";
+import Contact from "../src/components/Contact"
 import Home from "../src/components/Home";
 import Portfolio from "../src/components/Portfolio";
 import Layout from "../src/layouts/Layout";
@@ -8,16 +8,16 @@ const Index = () => {
   return (
     <Layout>
       <Home />
-      /Home Section 
-      About Section 
+      {/* /Home Section */}
+      {/* About Section */}
       <About />
-      /About Section 
-       Portfolio Section 
+      {/* /About Section */}
+      {/* Portfolio Section */}
       <Portfolio />
-       /Portfolio Section 
-      Services Section
+      {/* /Portfolio Section */}
+      {/* Services Section */}
       <Contact />
-      /Contact Section
+      {/* /Contact Section */}
     </Layout>
   );
 };
